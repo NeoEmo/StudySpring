@@ -1,4 +1,4 @@
-package com.SprSt.StudySpring.Demo;
+package com.SprSt.StudySpring.Chapter2.Demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

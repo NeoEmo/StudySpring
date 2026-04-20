@@ -1,4 +1,4 @@
-package com.SprSt.StudySpring.Listing2_6;
+package com.SprSt.StudySpring.Chapter2.Listing2_6;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

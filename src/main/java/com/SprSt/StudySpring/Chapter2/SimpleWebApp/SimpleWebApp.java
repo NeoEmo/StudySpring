@@ -1,4 +1,4 @@
-package com.SprSt.StudySpring.SimpleWebApp;
+package com.SprSt.StudySpring.Chapter2.SimpleWebApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
