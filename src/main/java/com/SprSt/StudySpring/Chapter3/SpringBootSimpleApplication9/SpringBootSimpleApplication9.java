@@ -13,12 +13,12 @@ import org.springframework.context.annotation.Bean;
  *  в случае с prod достаточно VM -Dspring.profiles.active=prod**/
 
 @SpringBootApplication
-public class springBootSimpleApplication9 {
+public class SpringBootSimpleApplication9 {
 
-    private static final Logger log = LoggerFactory.getLogger(springBootSimpleApplication9.class);
+    private static final Logger log = LoggerFactory.getLogger(SpringBootSimpleApplication9.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(springBootSimpleApplication9.class, args);
+        SpringApplication.run(SpringBootSimpleApplication9.class, args);
     }
 
     @Value("${server.ip}")

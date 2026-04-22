@@ -5,10 +5,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class springBootSimpleApplication4 {
+public class SpringBootSimpleApplication4 {
 
     public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(springBootSimpleApplication4.class);
+        SpringApplication app = new SpringApplication(SpringBootSimpleApplication4.class);
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
     }

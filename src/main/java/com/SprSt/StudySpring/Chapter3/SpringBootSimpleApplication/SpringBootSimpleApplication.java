@@ -9,10 +9,10 @@ import org.springframework.core.env.Environment;
 import java.io.PrintStream;
 
 @SpringBootApplication
-public class springBootSimpleApplication {
+public class SpringBootSimpleApplication {
 
     public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(springBootSimpleApplication.class);
+        SpringApplication app = new SpringApplication(SpringBootSimpleApplication.class);
         app.setBanner(new Banner() {
             @Override
             public void printBanner(Environment environment, @Nullable Class<?> sourceClass, PrintStream out) {

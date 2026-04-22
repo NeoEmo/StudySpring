@@ -11,12 +11,12 @@ import org.springframework.context.annotation.Bean;
 import java.io.IOException;
 
 @SpringBootApplication
-public class springBootSimpleApplication8 {
+public class SpringBootSimpleApplication8 {
 
-    private static final Logger log = LoggerFactory.getLogger(springBootSimpleApplication8.class);
+    private static final Logger log = LoggerFactory.getLogger(SpringBootSimpleApplication8.class);
 
     public static void main(String[] args) throws IOException {
-        SpringApplication.run(springBootSimpleApplication8.class, args);
+        SpringApplication.run(SpringBootSimpleApplication8.class, args);
     }
 
     @Bean

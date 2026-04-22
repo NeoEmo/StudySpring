@@ -11,12 +11,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class springBootSimpleApplication7 implements CommandLineRunner, ApplicationRunner {
+public class SpringBootSimpleApplication7 implements CommandLineRunner, ApplicationRunner {
 
-    private static final Logger log = LoggerFactory.getLogger(springBootSimpleApplication7.class);
+    private static final Logger log = LoggerFactory.getLogger(SpringBootSimpleApplication7.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(springBootSimpleApplication7.class, args);
+        SpringApplication.run(SpringBootSimpleApplication7.class, args);
     }
 
     @Bean

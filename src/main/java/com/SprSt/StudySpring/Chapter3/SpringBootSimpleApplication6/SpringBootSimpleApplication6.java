@@ -12,19 +12,19 @@ import java.util.List;
 import java.io.IOException;
 
 @SpringBootApplication
-public class springBootSimpleApplication6 {
+public class SpringBootSimpleApplication6 {
 
     public static void main(String[] args) throws IOException {
-        SpringApplication.run(springBootSimpleApplication6.class, args);
+        SpringApplication.run(SpringBootSimpleApplication6.class, args);
     }
 }
 
 @Component
-class myComponent {
-    private static final Logger log = LoggerFactory.getLogger(myComponent.class);
+class MyComponent {
+    private static final Logger log = LoggerFactory.getLogger(MyComponent.class);
 
     @Autowired
-    public myComponent(ApplicationArguments args) {
+    public MyComponent(ApplicationArguments args) {
         boolean enable = args.containsOption("enable");
 
         if(enable) {

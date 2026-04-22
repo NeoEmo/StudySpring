@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Из Spring Boot CLI убрали команду run**/
 
 @RestController
-public class webApp {
+public class WebApp {
 
     @GetMapping("/")
     String greetings() {
@@ -16,6 +16,6 @@ public class webApp {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(webApp.class, args);
+        SpringApplication.run(WebApp.class, args);
     }
 }

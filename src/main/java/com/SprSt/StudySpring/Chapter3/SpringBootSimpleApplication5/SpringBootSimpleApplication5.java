@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationListener;
 
 
 @SpringBootApplication
-public class springBootSimpleApplication5 {
+public class SpringBootSimpleApplication5 {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class springBootSimpleApplication5 {
                 // Выключение Баннера
                 .bannerMode(Banner.Mode.OFF)
                 // Загрузка основного файла
-                .sources(springBootSimpleApplication5.class)
+                .sources(SpringBootSimpleApplication5.class)
                 // Отключение журналирования (logging)
                 .logStartupInfo(false)
                 // Подключение профилей

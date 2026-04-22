@@ -1,10 +1,8 @@
 package com.SprSt.StudySpring.Chapter3.ExcludeWebApp;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
-import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-public class app {
+public class App {
 
     @GetMapping("/")
     String greetings() {
@@ -23,6 +21,6 @@ public class app {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(app.class, args);
+        SpringApplication.run(App.class, args);
     }
 }

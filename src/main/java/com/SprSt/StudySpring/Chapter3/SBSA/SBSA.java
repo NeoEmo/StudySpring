@@ -12,12 +12,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
-public class sBSA {
+public class SBSA {
 
-    private static final Logger log = LoggerFactory.getLogger(sBSA.class);
+    private static final Logger log = LoggerFactory.getLogger(SBSA.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(sBSA.class, args);
+        SpringApplication.run(SBSA.class, args);
     }
 
     @Value("${myapp.server-ip}")
